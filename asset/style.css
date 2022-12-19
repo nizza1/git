@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Nanum_coding;
+    src: url(./font/NanumGothicCoding-Bold.ttf);
+}
+
+@font-face {
+    font-family: Nanum_coding_R;
+    src: url(./font/NanumGothicCoding-Regular.ttf);
+}
+
+.fontB {
+    font-family: Nanum_coding;
+}
+
+.background {
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+.article {
+    box-shadow: inset 3px 3px ;
+    margin-top: 50px;
+    padding: 30px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+article:hover {
+    background-color: rgb(226, 255, 133);
+    transform: translateY(2px) translateX(2px);
+    box-shadow: inset 4px 4px ;
+    transition: transform 250ms;
+
+}
+
+.title {
+    letter-spacing: 5px;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    margin: 15px 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px;
+}
+
+.text {
+    letter-spacing: 1px ;
+    font-family: Nanum_coding_R;
+    padding-top: 10px;
+}
